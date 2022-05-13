@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    background-color: #CBC7C7;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    padding: 20px 2em;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin-right: 5em;
+}
+
+.logo img {
+    width: 200px;
+    transition: all .2s;
+}
+
+.logo img:hover {
+    width: 210px;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: .5mm;
+    margin: 0 auto;
+}
+
+.logo span {
+    font-size: .75rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 16px;
+    position: relative;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 800;
+    transition:color .3s, border-bottom .1s;
+}
+
+.nav-links li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+section {
+    display: flex;
+}
+
+.datos h1 {
+    padding-left: 70px;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+.datos p {
+    margin-left: 70px;
+    width: 490px;
+    font-size: 1.5em;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.datos button {
+    width: 200px;
+    height: 45px;
+    margin-left: 70px;
+    margin-top:35px;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: .2mm;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px #666;
+    cursor: pointer;
+}
+
+.img {
+    width: 170em;
+    margin: 20px;
+    padding-left: 40px;
+}
