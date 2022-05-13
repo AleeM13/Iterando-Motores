@@ -189,7 +189,7 @@ section {
 }
 
 
-@media (min-width:801px) and (max-width:1100px){
+@media (min-width:801px) and (max-width:11px){
     header {
         display: flex;
         justify-content: end;
