@@ -7,7 +7,7 @@ body {
 
 header {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     padding: 20px 2em;
     align-items: center;
 }
@@ -61,6 +61,7 @@ header {
 
 section {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .datos h1 {
@@ -93,7 +94,7 @@ section {
 }
 
 .img {
-    width: 600px;
+    width: 500px;
     margin: 90px;
     padding-left: 40px;
 }
@@ -101,7 +102,7 @@ section {
 @media (min-width:320px) and (max-width:800px){
     header {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         padding: 20px .4em;
         align-items: center;
     }
@@ -189,10 +190,10 @@ section {
 }
 
 
-@media (min-width:801px) and (max-width:11px){
+@media (min-width:801px) and (max-width:1200px){
     header {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         padding: 20px .5em;
         align-items: center;
     }
